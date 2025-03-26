@@ -10,8 +10,6 @@ import Footer from '../Components/Footer'
 import AboutUs from './AboutUs'
 
 
-
-
 const Home = () => {
   return (
     <div className='w-full'>
@@ -36,9 +34,6 @@ const Home = () => {
         </div>
         <div>
             <About/>
-        </div>
-        <div>
-            <AboutUs/>
         </div>
         <div>
             <Footer/>
