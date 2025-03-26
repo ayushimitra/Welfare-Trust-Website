@@ -43,7 +43,7 @@ const Navbar = () => {
           </Link>
           <Link to="/donate">
             <button className="px-4 py-2 bg-amber-700 text-white rounded-md hover:bg-amber-800 transition">
-              Donate
+              Join Us
             </button>
           </Link>
         </div>

@@ -7,7 +7,7 @@ import DonatorCard from '../Components/DonatorCard'
 import About from '../Components/About'
 import EventsAndGallery from '../Components/EventsAndGallery'
 import Footer from '../Components/Footer'
-import AboutUs from './AboutUs'
+
 
 
 const Home = () => {

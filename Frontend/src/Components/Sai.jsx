@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 import mandir from '../assets/mandir.jpg'
 
 const Sai = () => {
@@ -32,12 +33,11 @@ const Sai = () => {
 
         {/* CTA Buttons */}
         <div className="mt-8 flex justify-center space-x-4">
+        <Link to="/donations">
           <button className="px-6 py-3 bg-amber-700 text-white font-semibold rounded-lg hover:bg-amber-800 transition">
             Donate for Temple
           </button>
-          <button className="px-6 py-3 bg-yellow-500 text-white font-semibold rounded-lg hover:bg-yellow-600 transition">
-            Volunteer Now
-          </button>
+          </Link>
         </div>
       </div>
     </div>

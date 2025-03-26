@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Card from "./Card";
 
 
@@ -18,9 +19,11 @@ const Main = () => {
             By giving, you help feed hungry families, clothe the less fortunate, and provide relief in difficult times. 
             Every contribution, big or small, makes a difference in improving lives and spreading kindness.
           </p>
+          <Link to="/mission">
           <button className="bg-yellow-500 text-white px-6 py-3 rounded-lg font-semibold hover:bg-yellow-600 transition">
             LEARN MORE
           </button>
+          </Link>
         </div>
 
         {/* Right Section */}
